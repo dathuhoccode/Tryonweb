@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../picture/Backdrop.jpg');
+    background-size: cover; /* Đảm bảo ảnh nền được hiển thị đầy đủ trên mọi kích thước màn hình */
+    background-position: center; /* Căn giữa ảnh nền */
+    background-repeat: no-repeat; /* Ngăn lặp lại ảnh nền */
+    height: 100vh; /* Thiết lập chiều cao là 100% của viewport height */
+    display: flow;
+    justify-content: center;
+    color: white; /* Màu chữ trắng để đảm bảo đọc được trên ảnh nền */
+    align-items: center;
+}
+.rectangle{
+    width: 550px;
+    height: 550px;
+    border-radius: 45px;
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: relative;
+    top: 15%;
+    left: 15%;
+    display: flow;
+    /*flex-direction: column;*/
+    align-items: center;
+    place-items: center;
+    /*justify-content: top;*/
+    border: 3px;
+}
+.login{
+    align-items: center;
+    margin-left: 92px;
+    font-family: "Times New Roman",sans-serif;
+}
+.rectanglehavelogin{
+    width: 500px;
+    height: 500px;
+    border-radius: 45px;
+    background-color: rgba(56, 18, 18, 0.46);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: inherit;
+    top: 24px;
+    left: 26px;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: top;*/
+
+}
+.name{
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+    position: inherit;
+}
+.NAME,.PASS{
+    margin-top: 35px;
+}
+.pass{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    position: inherit;
+}
+.buttonlogin{
+    margin-top: 18px;
+    margin-left: 120px;
+}
+.forgetpassword{
+    margin-left: 72px;
+}
